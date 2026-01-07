@@ -2,17 +2,18 @@
   "schemaVersion": 1,
   "id": "johannmod",
   "version": "${version}",
-  "name": "Johann's First Mod",
-  "description": "A very cool mod made by Johann and Dad!",
+  "name": "JohannMod: Better TNT",
+  "description": "Adds Better TNT - an explosive block that creates epic chain reactions! Punch to ignite, then watch as it splits into 8 pieces, each spawning 8 more, creating massive expanding explosions. Made by 10-year-old Johann learning to code!",
   "authors": [
     "Johann",
-    "Dad"
+    "Matt Bounds"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/bonzo46/jomod1",
+    "sources": "https://github.com/bonzo46/jomod1",
+    "issues": "https://github.com/bonzo46/jomod1/issues"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/johannmod/icon.png",
   "environment": "*",
   "entrypoints": {
@@ -28,8 +29,5 @@
     "minecraft": "~1.21.1",
     "java": ">=21",
     "fabric-api": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
   }
 }
